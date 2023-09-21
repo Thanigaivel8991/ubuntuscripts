@@ -8,4 +8,8 @@ sudo apt --fix-broken install -y
 Sudo apt update --fix-missing -y
 wget https://github.com/rustdesk/rustdesk/releases/download/1.1.9/rustdesk-1.1.9.deb
 sudo dpkg -i rustdesk-1.1.9.deb
-
+sudo apt --fix-broken install -y
+Sudo apt update --fix-missing -y
+wget https://products.s.kaspersky-labs.com/endpoints/keslinux10/11.2.0.4528/multilanguage-11.2.0.4528/3437313131347c44454c7c31/kesl_11.2.0-4528_amd64.deb 
+sudo dpkg -i kesl_11.2.0-4528_amd64.deb
+sudo /opt/kaspersky/kesl/bin/kesl-setup.pl -y
