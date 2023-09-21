@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo apt update -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+wget https://filestore.fortinet.com/forticlient/forticlient_vpn_7.0.7.0246_amd64.deb
+sudo dpkg -i forticlient_vpn_7.0.7.0246_amd64.deb
+sudo apt --fix-broken install
+Sudo apt update --fix-missing
+wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/299354207/5c0f3007-c715-416f-9078-9bc8c8190fda?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230921%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230921T063705Z&X-Amz-Expires=300&X-Amz-Signature=360b02835b3b2cee6dac403388941e46f4a5685426a853f8298de395ccffd75d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=299354207&response-content-disposition=attachment%3B%20filename%3Drustdesk-1.2.2-x86_64.deb&response-content-type=application%2Foctet-stream
+sudo dpkg -i rustdesk-1.2.2-x86_64.deb
